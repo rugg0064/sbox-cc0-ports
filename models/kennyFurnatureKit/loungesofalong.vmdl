@@ -1,0 +1,109 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "carpet.vmat"
+								to = "materials/kennyfurnaturekit/carpet.vmat"
+							},
+							{
+								from = "wood.vmat"
+								to = "materials/kennyfurnaturekit/wood.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						origin = [ 62.54459, -48.786644, 11.474766 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 39.090401, 98.377457, 23.949532 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						origin = [ 41.32827, -69.24865, 11.474766 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 81.523041, 43.61414, 23.949532 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						origin = [ 62.54459, -4.337406, 18.35667 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 39.090401, 9.478981, 37.713341 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						origin = [ 77.416298, -48.786644, 22.968884 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 9.347, 98.377457, 46.937767 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						origin = [ 62.54459, -93.484985, 18.505444 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 39.090401, 8.980797, 38.010887 ]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "loungeSofaLong"
+						filename = "sources/kennyFurnatureKit/Models/loungeSofaLong.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 10.0
+						align_origin_x_type = "BoundsMin"
+						align_origin_y_type = "BoundsMax"
+						align_origin_z_type = "BoundsMin"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}

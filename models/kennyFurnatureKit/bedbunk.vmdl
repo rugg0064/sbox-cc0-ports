@@ -1,0 +1,128 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "carpet.vmat"
+								to = "materials/kennyfurnaturekit/carpet.vmat"
+							},
+							{
+								from = "carpetwhite.vmat"
+								to = "materials/kennyfurnaturekit/carpetwhite.vmat"
+							},
+							{
+								from = "wood.vmat"
+								to = "materials/kennyfurnaturekit/wood.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeBox"
+						name = "Matress1"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						origin = [ 54.735588, -28.512289, 10.618247 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 109.587418, 56.526081, 22.236494 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						name = "Matress2"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						origin = [ 54.985001, -28.137699, 68.098022 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 109.787048, 57.27533, 15.195894 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						name = "Pol1"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						origin = [ 1.788218, -55.038692, 42.538746 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 3.496325, 3.475402, 84.826912 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						name = "Pol2"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						origin = [ 107.788002, -55.0387, 42.5387 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 3.496325, 3.475402, 84.826912 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						name = "Pol3"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						origin = [ 1.78822, -2.0387, 42.5387 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 3.496325, 3.475402, 84.826912 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						name = "Pol4"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						origin = [ 107.788002, -2.0387, 42.5387 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 3.496325, 3.475402, 84.826912 ]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "bedBunk"
+						filename = "sources/kennyFurnatureKit/Models/bedBunk.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 10.0
+						align_origin_x_type = "BoundsMin"
+						align_origin_y_type = "BoundsMax"
+						align_origin_z_type = "BoundsMin"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}

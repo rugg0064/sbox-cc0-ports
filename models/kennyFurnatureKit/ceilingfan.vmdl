@@ -1,0 +1,122 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "lamp.vmat"
+								to = "materials/kennyfurnaturekit/lamp.vmat"
+							},
+							{
+								from = "metallight.vmat"
+								to = "materials/kennyfurnaturekit/metallight.vmat"
+							},
+							{
+								from = "wood.vmat"
+								to = "materials/kennyfurnaturekit/wood.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsMeshFile"
+						name = "ceilingFan"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "sources/kennyFurnatureKit/Models/ceilingFan.fbx"
+						import_scale = 10.0
+						maxMeshVertices = 0
+						qemError = 0.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						origin = [ 10.142122, -7.892056, 7.367602 ]
+						angles = [ 0.0, 60.0, 0.0 ]
+						dimensions = [ 7.034666, 19.347607, 1.519663 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						origin = [ 42.328629, -7.969185, 7.3676 ]
+						angles = [ 0.0, 120.0, 0.0 ]
+						dimensions = [ 6.937238, 19.463568, 1.519663 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						origin = [ 26.256042, -35.708309, 7.3676 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 7.089096, 19.340128, 1.519663 ]
+					},
+					{
+						_class = "PhysicsShapeSphere"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						radius = 8.0
+						center = [ 26.16839, -17.047325, 6.75521 ]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "ceilingFan"
+						filename = "sources/kennyFurnatureKit/Models/ceilingFan.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 10.0
+						align_origin_x_type = "BoundsMin"
+						align_origin_y_type = "BoundsMax"
+						align_origin_z_type = "BoundsMin"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}

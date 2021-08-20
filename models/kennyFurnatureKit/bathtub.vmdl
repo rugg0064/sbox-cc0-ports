@@ -1,0 +1,113 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc29:version{3cec427c-1b0e-4d48-a90a-0436f33a6041} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "MaterialGroupList"
+				children = 
+				[
+					{
+						_class = "DefaultMaterialGroup"
+						remaps = 
+						[
+							{
+								from = "carpetwhite.vmat"
+								to = "materials/kennyfurnaturekit/carpetwhite.vmat"
+							},
+							{
+								from = "metaldark.vmat"
+								to = "materials/kennyfurnaturekit/metaldark.vmat"
+							},
+							{
+								from = "metallight.vmat"
+								to = "materials/kennyfurnaturekit/metallight.vmat"
+							},
+						]
+						use_global_default = false
+						global_default_material = ""
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						origin = [ 27.894865, -59.513329, 4.316208 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 56.207279, 118.853317, 9.632416 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						origin = [ 27.894865, -114.080696, 17.49147 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 56.207279, 9.718589, 35.982941 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						origin = [ 27.894899, -5.081, 17.491501 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 56.207279, 9.718589, 35.982941 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						origin = [ 2.921732, -59.377892, 17.491501 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 6.260944, 118.312378, 35.982941 ]
+					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						origin = [ 53.096886, -59.377899, 17.491501 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 6.240282, 118.312378, 35.982941 ]
+					},
+				]
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "bathtub"
+						filename = "sources/kennyFurnatureKit/Models/bathtub.fbx"
+						import_translation = [ 0.0, 0.0, 0.0 ]
+						import_rotation = [ 0.0, 0.0, 0.0 ]
+						import_scale = 10.0
+						align_origin_x_type = "BoundsMin"
+						align_origin_y_type = "BoundsMax"
+						align_origin_z_type = "BoundsMin"
+						parent_bone = ""
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+	}
+}
