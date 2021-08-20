@@ -76,6 +76,15 @@
 						angles = [ 0.0, 0.0, 0.0 ]
 						dimensions = [ 38.890533, 26.215534, 10.642914 ]
 					},
+					{
+						_class = "PhysicsShapeBox"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						origin = [ 94.7341, -49.885788, 18.901001 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						dimensions = [ 2.712127, 91.314438, 38.802002 ]
+					},
 				]
 			},
 			{

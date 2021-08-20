@@ -59,13 +59,16 @@
 				]
 			},
 			{
-				_class = "ModelDataList"
+				_class = "PhysicsShapeList"
 				children = 
 				[
 					{
-						_class = "Bounds View"
-						mins = [ -1.0, -1.0, 0.0 ]
-						maxs = [ 1.0, 1.0, 1.0 ]
+						_class = "PhysicsHullFromRender"
+						parent_bone = ""
+						surface_prop = "default"
+						collision_prop = "default"
+						faceMergeAngle = 20.0
+						maxHullVertices = 32
 					},
 				]
 			},
